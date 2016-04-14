@@ -1,7 +1,10 @@
 $(document).ready(init);
 
 function init() {
-	$('.blocks').click(function(){
-		$(this).toggleClass("selected");	
+	$('.towers').click(function(){
+		if($(this).find(".blocks").length){
+			$('.blocks:last-child').toggleClass("selected");
+		}
+		
 	});
 }
