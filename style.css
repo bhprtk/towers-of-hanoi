@@ -1,0 +1,33 @@
+.towers {
+	height: 200px;
+	width: 200px;
+	padding-bottom: 10px;
+	background-color: blue;
+	display: inline-flex;
+	flex-direction: column-reverse;
+	align-items: center;
+}
+
+#block1{
+	height: 30px;
+	width: 150px;
+	background-color: black;
+	
+}
+
+#block2{
+	height: 30px;
+	width: 100px;
+	background-color: black;
+	
+}
+
+#block3{
+	height: 30px;
+	width: 75px;
+	background-color: black;	
+}
+
+.blocks {
+	border: 1px solid white;
+}
