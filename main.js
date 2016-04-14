@@ -1,5 +1,7 @@
 $(document).ready(init);
 
 function init() {
-	console.log("working");
+	$('.blocks').click(function(){
+		$(this).toggleClass("selected");	
+	});
 }

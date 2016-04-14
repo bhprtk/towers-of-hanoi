@@ -9,25 +9,26 @@
 }
 
 #block1{
-	height: 30px;
 	width: 150px;
-	background-color: black;
 	
 }
 
 #block2{
-	height: 30px;
 	width: 100px;
-	background-color: black;
 	
 }
 
 #block3{
-	height: 30px;
 	width: 75px;
-	background-color: black;	
 }
 
 .blocks {
 	border: 1px solid white;
+	height: 30px;
+	margin: 1px;
+	background-color: black;	
+}
+
+.selected{
+	background: green;
 }
