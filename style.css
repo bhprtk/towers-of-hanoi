@@ -1,8 +1,36 @@
+
+.panel {
+	padding: 20px;
+	height: 100px;
+	background-color: #302013;
+	color: white;
+	margin-bottom: 100px;
+}
+.you-win h3 {
+	text-align: center;
+}
+#play-again{
+	margin-left: 550px;
+	height: 30px;
+	margin-top: 40px;
+}
+h1 {
+	text-align: center;
+}
+h3 {
+	margin-top: 50px;
+	margin-left: 10px;
+}
+.towers-align {
+	margin: auto;
+	width: 70%;
+}
 .towers {
-	height: 200px;
-	width: 200px;
+	height: 300px;
+	width: 300px;
+	margin: 10px;
 	padding-bottom: 10px;
-	background-color: blue;
+	background-color: #d8ecf9;
 	display: inline-flex;
 	flex-direction: column-reverse;
 	align-items: center;
@@ -10,12 +38,12 @@
 
 #block1{
 	width: 150px;
-	
+
 }
 
 #block2{
 	width: 100px;
-	
+
 }
 
 #block3{
@@ -25,10 +53,14 @@
 .blocks {
 	border: 1px solid white;
 	height: 30px;
-	margin: 1px;
-	background-color: black;	
+	margin: 2px;
+	background-color: #302013;
 }
 
 .selected{
 	background: green;
+}
+
+.you-win {
+	display: none;
 }

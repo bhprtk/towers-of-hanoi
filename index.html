@@ -6,7 +6,17 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div>
+	<div class="panel">
+		<h1>Towers of Hanoi</h1>
+	</div>
+
+	<div class="you-win">
+		<h1>you win</h1>
+		<h3>Total moves: <span id="total-moves"></span></h3>
+		<button id="play-again">Play Again</button>
+	</div>
+
+	<div class="towers-align">
 		<div id="tower1" class="towers">
 			<div id='block1' class="blocks"></div>
 			<div id='block2' class="blocks"></div>
@@ -14,7 +24,10 @@
 		</div>
 		<div id="tower2" class="towers"></div>
 		<div id="tower3" class="towers"></div>
+		<h3>Moves: <span id="moves">0</span></h3>
 	</div>
+
+
 
 <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
 <script src="main.js"></script>
